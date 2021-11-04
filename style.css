@@ -1,0 +1,60 @@
+body {
+    background-color: #ededed!important;
+}
+.block {
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 50px;
+}
+.title {
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.example-first {
+    color: black;
+    font-size: 20px;
+}
+.example-first:hover {
+    color: blue;
+    text-decoration: none;
+}
+.example-first::after {
+    content: " >";
+}
+.example-second {
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.example-second:hover {
+    color: blue;
+    text-decoration: none;
+}
+.example-second::after {
+    content: " ";
+    background-image: url(arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: 10px;
+}
+.example-third {
+    color: black;
+    font-size: 20px;
+}
+.example-third:hover{
+    text-decoration: none;
+    color: blue;
+    
+}
+.example-third::after {
+    margin-left: 10px;
+    content: "(https://google.com) ";
+    text-decoration: underline;
+}
